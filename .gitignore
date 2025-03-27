@@ -1,0 +1,28 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+.venv/
+env/
+venv/
+
+# CatBoost logs
+catboost_info/
+
+# Ignore model weights
+*.pth
+*.cbm
+*.pkl
+
+# Old unused data
+old_csv/
+
+# Ignore uploads
+uploads/
+
+# Ignore local data
+*.csv
+
+# VSCode settings (optional)
+.vscode/
